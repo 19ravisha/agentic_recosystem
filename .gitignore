@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data (large, never commit)
+data/
+!data/.gitkeep
+
+# Experiment artifacts
+mlruns/
+wandb/
+*.parquet
+*.npz
+.ipynb_checkpoints/
