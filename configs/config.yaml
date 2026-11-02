@@ -1,0 +1,11 @@
+seed: 42
+
+paths:
+  raw: data/raw
+  processed: data/processed
+
+data:
+  category: "<fill in Amazon category>"
+  positive_rating_threshold: 4
+  min_user_interactions: 5   # k-core threshold, finalize on Day 2
+  min_item_interactions: 5
