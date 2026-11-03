@@ -14,6 +14,7 @@ dependencies = [
     "scipy",
     "pyarrow",
     "scikit-learn",
+    "pyyaml",
 ]
 
 [project.optional-dependencies]
